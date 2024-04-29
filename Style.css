@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.parent {
+  width: 100%;
+  height: 100vh;
+}
+.parent .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .box-img {
+  /* border: 3px solid gold; */
+  width: 100%;
+  height: 75%;
+}
+.box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.container .card-img {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* border: 3px solid green; */
+}
+.card-img img {
+  width: 25%;
+  height: 80%;
+  border: 1px solid brown;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.two-parent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-container {
+  /* border: 3px solid gold; */
+  width: 90%;
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.two-container .card {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-container .card button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f6514f;
+  color: #fff;
+  cursor: pointer;
+}
+.two-container .box-img {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
